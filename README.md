@@ -34,5 +34,19 @@ pip install -r requirements.txt
             |-- input (image folder)
                 |-- <your image>
 ```
+#### Preprocess
+You should resize the original images. Take `downsample.py` as an example. You can also use your own method.
+```
+python downsample.py
+```
+#### Training
+The default hyperparameters are: optimizer: Adam; batch size = 8; shape= (512,512); epoch = 200
 
+```
+python train.py
+```
+#### Inference
 
+```
+python inference.py
+```
