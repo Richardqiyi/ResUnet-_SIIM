@@ -5,6 +5,10 @@ ResUnet++ model for SIIM-ACR-Pneumothorax-Seg-XR dataset. For original repo, see
 
 python = 3.7, PyTorch = 1.7.1, cuda = 10.1
 
+#### GPU
+
+1*Nvidia RTX 3090 24GB
+
 #### Docker
 ```
 docker pull stevezeyuzhang/colab:1.7.1
