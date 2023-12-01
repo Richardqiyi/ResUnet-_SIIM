@@ -46,13 +46,11 @@ python downsample.py
 ```
 #### Training
 The default hyperparameters are: optimizer: Adam; batch size = 8; shape= (512,512); epoch = 200,
-You can download checkpoint [here](https://github.com/Richardqiyi/ResUnet-_SIIM/releases/tag/ResUnet%2B%2B_adam_bs8_shape512_epoch200_cosdecay)
-
 ```
 python train.py
 ```
 #### Inference
-
+You can download checkpoint [here](https://github.com/Richardqiyi/ResUnet-_SIIM/releases/tag/ResUnet%2B%2B_adam_bs8_shape512_epoch200_cosdecay)
 ```
 python inference.py
 ```
